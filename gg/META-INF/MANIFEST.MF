@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+Built-By: lcs
+Build-Jdk: 1.6.0_13
+Export-Package: jline;uses:="javax.swing";version="0.9.95.SNAPSHOT"
+Ignore-Package: jline
+Tool: Bnd-0.0.311
+Bundle-Name: JLine
+DynamicImport-Package: *
+Bundle-Version: 0.9.95.SNAPSHOT
+Bnd-LastModified: 1258821534726
+Bundle-ManifestVersion: 2
+Bundle-License: LICENSE.txt
+Bundle-Description: JLine is a java library for reading and editing us
+ er input in console applications. It features tab-completion, command
+  history, password masking, customizable keybindings, and pass-throug
+ h handlers to use to chain to other console applications.
+Import-Package: javax.swing;resolution:=optional
+Bundle-SymbolicName: jline
+Originally-Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+
