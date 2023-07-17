@@ -92,7 +92,7 @@ public class Main {
 
             }
             sc.nextLine();
-            if (ch == 5)
+            if (ch == 6)
                 break;
         }
 
@@ -117,7 +117,7 @@ public class Main {
             Matcher nameMacher = nameReg.matcher(name);
             b = nameMacher.matches();
             if (!b)
-                System.out.println("Pleace Eneter valid name  :");
+                System.out.println("Pleace Enter valid name  :");
         } while (!b);
         // Email validate
         do {
@@ -126,13 +126,13 @@ public class Main {
             Matcher emailMacher = emailReg.matcher(email);
             b = emailMacher.matches();
             if (!b)
-                System.out.println("Pleace Eneter valid email :  ");
+                System.out.println("Pleace Enter valid email :  ");
         } while (!b);
 
         // Number validate
         do {
 
-            System.out.println("Enter Mobile Number :");
+            System.out.print("Enter Mobile Number :");
             num = sc.nextLine().trim();
             Matcher numMacher = numberReg.matcher(num);
             b = numMacher.matches();
@@ -203,7 +203,7 @@ public class Main {
             Matcher passMacher = passReg.matcher(pass);
             b = passMacher.matches();
             if (!b)
-                System.out.println("Pleace Eneter valid Password   :  ");
+                System.out.println("Pleace Enter valid Password   :  ");
         } while (!b);
 
         // System.out.println("Enter password..");
